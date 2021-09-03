@@ -71,6 +71,12 @@
     text-align: center;
     font-size: 14px;
 }
+.gull {
+    margin-top: 300px;
+    width: 100%;height: 440px;
+    text-align: center;
+    font-size: 14px;
+}
 .BBRHBC {
     font-family: 'ZCOOL KuaiLe', cursive;
     font-size: 18px;
@@ -102,17 +108,26 @@
 .bla {
     margin-top: 0;
     margin-left: 292px;
+    margin-bottom: 100px;
     width: 140px;height: 4px;
 }
 .blas {
     margin-top: 0;
     margin-left: 294px;
     width: 170px;height: 4px;
+    margin-bottom: 100px;
 }
 
 .bestracket {
     display: flex;
-    width: 900px;height: 500px;
+    width: 900px;height: 300px;
+    margin-left: 360px;
+    margin-top: 50px;
+    
+}
+.bestshu {
+    display: flex;
+    width: 900px;height: 240px;
     margin-left: 360px;
     margin-top: 50px;
     
@@ -121,18 +136,33 @@
     width: 220px;height: 220px;
 }
 .rbg {
-    padding: 0.8px;
+    padding: 1.6px;
     width: 220px;height: 220px;
     background-color: black;
     margin-right: 80px;
     font-family: 'Lora', serif;
     font-size: 15px;
 }
+.rbg:hover {
+    background-color: rgb(0, 197, 197);
+}
+
 .h {
     font-size: 12px;
     color: black;
+    margin-right: 234px;
+    font-family: 'Lora', serif;
 }
 .h:hover {
+    color: cadetblue;
+}
+.hr {
+    font-size: 12px;
+    color: black;
+    margin-right: 260px;
+    font-family: 'Lora', serif;
+}
+.hr:hover {
     color: cadetblue;
 }
 /*-- best racket --*/
@@ -141,4 +171,27 @@
     margin-left: 552px;
     font-size: 40px;
     font-family: 'Indie Flower', cursive;
+}
+.blll {
+    width: 600px;height: 4px;
+    margin-bottom: 300px;
+    margin-left: 480px;
+    margin-top: 100px;
+}
+.shu {
+    margin-left: 362px;
+}
+.sh {
+    margin-top: 0;
+    display: block;
+}
+.footer {
+    width: 100%;height: 70px;
+    background-color: #DFDFDF;
+    display: flex;
+}
+.pp {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 12px;
+    margin: auto;
 }
