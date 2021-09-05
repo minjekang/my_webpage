@@ -275,7 +275,7 @@
     margin-top: 30px;
     margin-left: 300px;
     border-radius:10px 10px 10px 10px;
-    font-size: 20px;
+    font-size: 17px;
     padding: 10px 10px 10px 10px;
 }
 .buy:hover {
@@ -284,5 +284,17 @@
 .a {
     font-size: 16px;
     padding: 5px 10px 5px 10px;
+}
+.bsb {
+    font-family: 'Lora', serif;
+    margin-top: 30px;
+    margin-left: 38px;
+    font-size: 14px;
+}
+.rp {
+    font-family: 'Lora', serif;
+    margin-top: 10px;
+    margin-left: 38px;
+    font-size: 14px;
 }
 /*-----------bestracket 1----------*/
