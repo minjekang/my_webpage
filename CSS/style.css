@@ -301,4 +301,14 @@
 .mb2 {
     width: 512px;height: 512px;
 }
+.fn {
+    margin-top: 30px;
+    margin-bottom: 12px;
+    font-size: 24px;
+    
+}
+.pon {
+    font-size: 16px;
+    padding: 5px 10px 5px 10px;
+}
 /*-----------bestracket----------*/
