@@ -1,11 +1,12 @@
 * {
     margin: 0;padding: 0;
 }
+
 .home {
-    background-color: #DFDFDF; height: 14px;width: 1519px;
+    background-color: #DFDFDF; height: 17px;width: 1519px;
     text-align: center;font-size: 14px;
     font-family: 'Indie Flower', cursive;
-    
+    margin-bottom: 0;
 }
 .rb {
     width: 1519px;
@@ -22,11 +23,15 @@
 
 .rb .racket {
     width: 1200px;
-    margin-top: 3px;
+    margin-top: 0px;
 
 }
 .nnn {
-    position: sticky;top: 0;
+    
+    position: sticky;top: 0px;
+    width: 100%;height: 46px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -2px;padding-top: 0;
 }
 .tag {
     height: 26px;width: 400px;
@@ -190,6 +195,13 @@
     width: 100%;height: 70px;
     background-color: #DFDFDF;
     display: flex;
+    margin-top: 38px;
+}
+.footerr {
+    width: 100%;height: 70px;
+    background-color: #DFDFDF;
+    display: flex;
+    margin-top: 100px;
 }
 .pp {
     font-family: 'Architects Daughter', cursive;
@@ -227,6 +239,10 @@
 }
 .hyeong {
     margin-top: 40px;
+    font-size: 22px;
+}
+.hyeon {
+    margin-top: 6px;
     font-size: 22px;
 }
 .string {
