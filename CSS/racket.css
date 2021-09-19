@@ -1,0 +1,137 @@
+* {
+    margin: 0;padding: 0;
+}
+
+.home {
+    background-color: #DFDFDF; height: 17px;width: 1519px;
+    text-align: center;font-size: 14px;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 0;
+}
+.rb {
+    width: 1519px;
+    background-color: #DFDFDF;
+    text-align: center;
+}
+
+.rbb {
+    width: 1519px;
+    background-color: #DFDFDF;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+.rb .racket {
+    width: 1200px;
+    margin-top: 0px;
+
+}
+.nnn {
+    
+    position: sticky;top: 0px;
+    width: 100%;height: 46px;
+    background-color: rgb(238, 238, 238);
+    margin-top: -2px;padding-top: 0;
+}
+.han {
+
+    font-family: 'Indie Flower', cursive;
+    font-size: 12px;
+    margin-left: 120px;
+}
+.tag {
+    height: 26px;width: 400px;
+    margin-left: 1100px;
+    font-family: 'Indie Flower', cursive;
+    display: flex;
+    text-align: right;
+    font-size: 22px;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    
+}
+.t {
+    color: black;
+}
+.t:hover {
+    color: teal;
+}
+.hd {
+    display: flex;
+    margin-top: 2px;
+}
+
+
+.dot2 {
+    margin-left: 1048px;
+    width: 10px;height: 5px;
+    margin-top: 2;
+}
+
+.footer {
+    width: 100%;height: 70px;
+    background-color: #DFDFDF;
+    display: flex;
+    margin-top: 38px;
+}
+.pp {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 12px;
+    margin: auto;
+}
+.ban {
+    width: 300px;
+    height: 1000px;
+    margin-top: 460px;
+}
+.ba {
+    padding-bottom: 10px;
+    padding-left: 50px;
+    width: 150px;
+}
+
+.typing-txt {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    animation-name: cursor;  /* 애니메이션 이름 */
+    animation-duration: 1s;  /* 깜빡이는 시간 */
+    animation-iteration-count: infinite;  /* 반복적으로 깜빡이게 하기 */ 
+    margin-top: 0;
+    padding-left: 50px;
+}
+
+@keyframes typingAni {
+    0%{width: 0%}
+    100%{width: 150px};
+}
+
+@keyframes cursor {
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+.bara{
+    display: flex;
+}
+.bbr1{
+    display: block;
+    background-color: black;
+    padding: 0.7px;
+    width: 512px;
+    height: 512px;
+    
+}
+.bbbr1{
+    margin-top: 100px;
+}
+.red{
+    font-size: 114px;
+    color: rgb(88, 12, 12);
+    margin-top: 300px;
+    margin-left: 150px;
+}
+.big{
+    font-size: 26px;
+    margin-bottom: 10px;
+}
