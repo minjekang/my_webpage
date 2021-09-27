@@ -83,6 +83,7 @@
     width: 300px;
     height: 1000px;
     margin-top: 460px;
+    margin-left: 20px;
 }
 .ba {
     padding-bottom: 10px;
@@ -128,10 +129,27 @@
 .red{
     font-size: 114px;
     color: rgb(88, 12, 12);
-    margin-top: 300px;
+    margin-top: 260px;
     margin-left: 150px;
 }
 .big{
     font-size: 26px;
     margin-bottom: 10px;
+}
+.n1ex {
+    font-size: 18px;
+    margin-left: 140px;
+
+}
+.N1ex {
+    display: block;
+    text-align: center;
+}
+.pr {
+    font-size: 24px;
+    margin-left: 140px;
+    margin-top: 6px;
+}
+.racket {
+    display: block;
 }
