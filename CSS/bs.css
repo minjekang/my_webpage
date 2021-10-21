@@ -1,3 +1,9 @@
+.homea{
+    color: black;
+}
+.homea:hover{
+    color: cadetblue;
+}
 .mbr {
     background-color: black;
     padding: 1.6px;

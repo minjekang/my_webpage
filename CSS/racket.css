@@ -8,6 +8,12 @@
     font-family: 'Indie Flower', cursive;
     margin-bottom: 0;
 }
+.homea{
+    color: black;
+}
+.homea:hover{
+    color: cadetblue;
+}
 .rb {
     width: 1519px;
     background-color: #DFDFDF;
@@ -67,7 +73,12 @@
     width: 10px;height: 5px;
     margin-top: 2;
 }
-
+.dot3 {
+    margin-left: 1176px;
+    width: 10px;
+    height: 5px;
+    margin-top: 2;
+}
 .pp {
     font-family: 'Architects Daughter', cursive;
     font-size: 12px;
@@ -75,7 +86,8 @@
 }
 .ban {
     position: fixed;
-    top: 250px;
+    top: 230px;
+    left: 70px;
 }
 .ba {
     padding-bottom: 10px;
@@ -175,8 +187,9 @@
     background-color: rgb(0, 197, 197);
 }
 .sh {
-    margin-top: 0;
+    margin-top: 100px;
     display: block;
+    
 }
 .bestshu {
     display: flex;
@@ -195,5 +208,5 @@
     width: 100%;height: 70px;
     background-color: #DFDFDF;
     display: flex;
-    margin-top: 38px;
+    margin-top: 238px;
 }
