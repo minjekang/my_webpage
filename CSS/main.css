@@ -22,7 +22,6 @@ body{
     color: rgba(0, 0, 0, 0.3);
     font-family: 'Bebas Neue', cursive;
     padding-top: 270px;
-
 }
 .start{
     margin-top: 30px;
@@ -40,3 +39,20 @@ body{
     padding-top: 14px;
     color: white;
 }
+/*main 끝*/
+
+.up{
+    color: white;
+}
+.container {
+    margin: 20px;
+  }
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .list .up-on-scroll {
+    margin-top: 20px;
+    transition: transform 0.7s, opacity 1s;
+  }
