@@ -42,6 +42,7 @@ body{
 }
 /*main 끝*/
 
+
 .up{
     position: relative;
     color: rgba(255, 255, 255, 0.3);
@@ -81,7 +82,7 @@ body{
     font-family: 'Shadows Into Light', cursive;
 }
 .drive{
-    margin-top: 180px;
+    margin-top: 160px;
     margin-left: 26%;
 }
 .dr{
@@ -106,4 +107,45 @@ body{
     font-size: 120px;
     margin-left: 240px;
     margin-right: 60px;
+}
+.drop{
+    margin-top: 130px;
+    margin-left: 100px;
+}
+.smash{
+    margin-top: 180px;
+    margin-left: 24%;
+}
+.drop-bg{
+    margin-top: 90px;
+    margin-right: 50px;
+    width: 370px;
+    height: 250px;
+    background-image: url(../images/drop.jpg);
+    box-shadow: 0px 0px 30px 35px black inset;
+}
+.smash-bg{ 
+    margin-left: 50px;
+    width: 550px;
+    height: 300px;
+    background-image: url(../images/smash.jpg);
+    box-shadow: 0px 0px 30px 35px black inset;
+}
+.sup{
+    position: relative;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 120px;
+    margin-left: 20px;
+    margin-right: 60px;
+}
+.sover{
+    margin-left: 20px;
+    margin-top: 100px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.Now{
+    position: absolute;
 }
