@@ -19,10 +19,10 @@ body{
     
 }
 .main1-text{
-    font-size: 80px;
-    color: rgba(0, 0, 0, 0.3);
-    font-family: 'Bebas Neue', cursive;
-    padding-top: 270px;
+    font-size: 100px;
+    color: rgba(0, 0, 0);
+    font-family: 'Shadows Into Light', cursive;
+    padding-top: 230px;
 }
 .start{
     margin-top: 30px;
@@ -78,4 +78,32 @@ body{
     position: absolute;
     color: white;
     font-size: 20px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.drive{
+    margin-top: 180px;
+    margin-left: 26%;
+}
+.dr{
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 370px;
+    height: 250px;
+    background-image: url(../images/drive.jpg);
+    box-shadow: 0px 0px 30px 35px black inset;
+}
+.dover{
+    margin-left: 140px;
+    margin-top: 100px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.dup{
+    position: relative;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 120px;
+    margin-left: 240px;
+    margin-right: 60px;
 }
