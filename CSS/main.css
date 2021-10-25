@@ -1,10 +1,13 @@
 * {
-    margin: 0;padding: 0;
+    margin: 0;
+    padding: 0;
 }
-body{
+
+body {
     background-color: black;
 }
-.main1{ 
+
+.main1 {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -16,56 +19,66 @@ body{
     background-size: cover;
     text-align: center;
     box-shadow: 0px 0px 80px 75px black inset;
-    
+
 }
-.main1-text{
+
+.main1-text {
     font-size: 100px;
     color: rgba(0, 0, 0);
     font-family: 'Shadows Into Light', cursive;
     padding-top: 230px;
 }
-.start{
+
+.start {
     margin-top: 30px;
     color: rgba(30, 22, 54, 0.6);
-	box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+    box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
     width: 100px;
     height: 48px;
 }
-.start:hover{
-	color: rgba(255, 255, 255, 0.85);
-	box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
+
+.start:hover {
+    color: rgba(255, 255, 255, 0.85);
+    box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
 }
-.since{
+
+.since {
     color: white;
     text-align: center;
     font-size: 14px;
 }
+
 /*main 끝*/
 
 
-.up{
+.up {
     position: relative;
     color: rgba(255, 255, 255, 0.3);
     font-size: 120px;
 }
+
 .container {
     margin: 20px;
-  }
-  .list {
+}
+
+.list {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-  }
+}
+
 .list .up-on-scroll {
     display: flex;
     margin-top: 20px;
     transition: transform 0.7s, opacity 1s;
-  }
-.hairpin{
+}
+
+.hairpin {
     margin-top: 100px;
     margin-left: 100px;
 }
-.hapin{
+
+.hapin {
     margin-top: 90px;
     margin-right: 50px;
     width: 370px;
@@ -73,7 +86,8 @@ body{
     background-image: url(../images/hairpin.jpg);
     box-shadow: 0px 0px 30px 35px black inset;
 }
-.over{
+
+.over {
     margin-left: 480px;
     margin-top: 104px;
     position: absolute;
@@ -81,11 +95,13 @@ body{
     font-size: 20px;
     font-family: 'Shadows Into Light', cursive;
 }
-.drive{
+
+.drive {
     margin-top: 160px;
     margin-left: 26%;
 }
-.dr{
+
+.dr {
     margin-top: 100px;
     margin-left: 50px;
     width: 370px;
@@ -93,7 +109,8 @@ body{
     background-image: url(../images/drive.jpg);
     box-shadow: 0px 0px 30px 35px black inset;
 }
-.dover{
+
+.dover {
     margin-left: 140px;
     margin-top: 100px;
     position: absolute;
@@ -101,44 +118,52 @@ body{
     font-size: 20px;
     font-family: 'Shadows Into Light', cursive;
 }
-.dup{
+
+.dup {
     position: relative;
     color: rgba(255, 255, 255, 0.3);
     font-size: 120px;
     margin-left: 240px;
     margin-right: 60px;
 }
-.drop{
+
+.drop {
     margin-top: 130px;
     margin-left: 100px;
 }
-.smash{
+
+.smash {
     margin-top: 180px;
     margin-left: 24%;
+    margin-bottom: 150px;
 }
-.drop-bg{
+
+.drop-bg {
     margin-top: 90px;
     margin-right: 50px;
     width: 370px;
     height: 250px;
-    background-image: url(../images/drop.jpg);
+    background-image: url(../../images/drop.jpg);
     box-shadow: 0px 0px 30px 35px black inset;
 }
-.smash-bg{ 
+
+.smash-bg {
     margin-left: 50px;
     width: 550px;
     height: 300px;
     background-image: url(../images/smash.jpg);
     box-shadow: 0px 0px 30px 35px black inset;
 }
-.sup{
+
+.sup {
     position: relative;
     color: rgba(255, 255, 255, 0.3);
     font-size: 120px;
     margin-left: 20px;
     margin-right: 60px;
 }
-.sover{
+
+.sover {
     margin-left: 20px;
     margin-top: 100px;
     position: absolute;
@@ -146,6 +171,48 @@ body{
     font-size: 20px;
     font-family: 'Shadows Into Light', cursive;
 }
-.Now{
+
+.Now {
+    position: relative;
+}
+
+#shadow {
+    box-shadow: 0px 0px 30px 35px black inset;
+}
+
+.pic {
     position: absolute;
+    margin-top: 400px;
+    margin-left: 200px;
+    width: 420px;
+    height: 280px;
+    background-image: url(../images/슌.jpg);
+    background-size: contain;
+}
+
+.Now-text {
+    margin-left: 500px;
+    margin-top: 400px;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    height: 380px;
+}
+
+.n {
+    margin-left: 20%;
+    font-size: 100px;
+}
+
+.sthbc {
+    margin-left: 30%;
+    font-size: 100px;
+}
+
+.sthb {
+    color: white;
+    text-decoration: none;
+}
+
+.sthb:hover {
+    color: cadetblue;
 }
