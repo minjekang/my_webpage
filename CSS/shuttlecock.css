@@ -1,6 +1,12 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0;padding: 0;
+}
+
+.home {
+    background-color: #DFDFDF; height: 17px;width: 1519px;
+    text-align: center;font-size: 14px;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 0;
 }
 .homea{
     color: black;
@@ -8,16 +14,6 @@
 .homea:hover{
     color: cadetblue;
 }
-.home {
-    background-color: #DFDFDF;
-    height: 17px;
-    width: 1519px;
-    text-align: center;
-    font-size: 14px;
-    font-family: 'Indie Flower', cursive;
-    margin-bottom: 0;
-}
-
 .rb {
     width: 1519px;
     background-color: #DFDFDF;
@@ -36,28 +32,21 @@
     margin-top: 0px;
 
 }
-
 .nnn {
-
-    position: sticky;
-    top: 0px;
-    width: 100%;
-    height: 46px;
+    
+    position: sticky;top: 0px;
+    width: 100%;height: 46px;
     background-color: rgb(238, 238, 238);
-    margin-top: -2px;
-    padding-top: 0;
+    margin-top: -2px;padding-top: 0;
 }
-
 .han {
 
     font-family: 'Indie Flower', cursive;
     font-size: 12px;
     margin-left: 120px;
 }
-
 .tag {
-    height: 26px;
-    width: 400px;
+    height: 26px;width: 400px;
     margin-left: 1100px;
     font-family: 'Indie Flower', cursive;
     display: flex;
@@ -65,40 +54,159 @@
     font-size: 22px;
     flex-direction: row-reverse;
     justify-content: space-evenly;
-
+    
 }
-
 .t {
     color: black;
 }
-
 .t:hover {
     color: teal;
 }
-
 .hd {
     display: flex;
     margin-top: 2px;
 }
 
 
+.dot2 {
+    margin-left: 1048px;
+    width: 10px;height: 5px;
+    margin-top: 2;
+}
 .dot3 {
     margin-left: 1176px;
     width: 10px;
     height: 5px;
     margin-top: 2;
 }
-
-.footer {
-    width: 100%;
-    height: 70px;
-    background-color: #DFDFDF;
-    display: flex;
-    margin-top: 38px;
-}
-
 .pp {
     font-family: 'Architects Daughter', cursive;
     font-size: 12px;
     margin: auto;
+}
+.ban {
+    position: fixed;
+    top: 230px;
+    left: 70px;
+}
+.ba {
+    padding-bottom: 10px;
+    padding-left: 50px;
+    width: 150px;
+}
+
+.typing-txt {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    animation-name: cursor;  
+    animation-duration: 1s;  
+    animation-iteration-count: infinite;  
+    margin-top: 0;
+    padding-left: 50px;
+}
+
+@keyframes typingAni {
+    0%{width: 0%}
+    100%{width: 150px};
+}
+
+@keyframes cursor {
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+.ketsh{
+    display: block;
+    width: 100px;
+}
+.ket{
+    display: flex;
+    margin-left: 400px;
+    height: 500px;
+    width: 100%;
+}
+.bara{
+    display: flex;
+}
+.bbr1{
+    display: block;
+    background-color: black;
+    padding: 0.8px;
+    width: 342px;
+    height: 342px;
+    margin-top: 100px;
+}
+.r1{
+    width: 342px;
+    height: 342px;
+}
+
+.red{
+    font-size: 114px;
+    color: rgb(88, 12, 12);
+    margin-top: 120px;
+    margin-left: 150px;
+}
+.big{
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.n1ex {
+    font-size: 18px;
+    margin-left: 140px;
+
+}
+.N1ex {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+.pr {
+    font-size: 24px;
+    margin-left: 140px;
+    margin-top: 6px;
+}
+.racket {
+    display: block;
+}
+
+
+
+.rbg {
+    padding: 1.6px;
+    width: 220px;
+    height: 220px;
+    background-color: black;
+    margin-right: 80px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    color: black;
+}
+.rbg:hover {
+    background-color: rgb(0, 197, 197);
+}
+.sh {
+    margin-top: 100px;
+    display: block;
+    
+}
+.bestshu {
+    display: flex;
+    width: 900px;
+    height: 240px;
+    margin-left: 360px;
+    margin-top: 50px;
+
+}
+.br {
+    width: 220px;
+    height: 220px;
+}
+
+.footer {
+    width: 100%;height: 70px;
+    background-color: #DFDFDF;
+    display: flex;
+    margin-top: 238px;
 }
