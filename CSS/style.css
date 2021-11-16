@@ -12,12 +12,15 @@
     font-family: 'Indie Flower', cursive;
     margin-bottom: 0;
 }
-.homea{
+
+.homea {
     color: black;
 }
-.homea:hover{
+
+.homea:hover {
     color: cadetblue;
 }
+
 .rb {
     width: 1519px;
     background-color: #DFDFDF;
